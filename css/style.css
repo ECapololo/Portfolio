@@ -1,0 +1,126 @@
+.navbar-collapse {
+    flex-grow: 0;
+}
+.navbar>.container-fluid{
+	justify-content: space-between;
+}
+.profile{
+    background-color: #000;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .box{
+    margin: 100px;
+}
+h1{
+    font-size: 4em;
+}
+h1, .purpose{
+    color: #FFF;
+}
+img{
+    width: 100%;
+}
+h1 span{
+    color: rgb(23, 225, 232);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 40px 0;
+}
+.desc-about{
+    max-width: 800px;
+    text-align: center;
+}
+.skills{
+    background-color: #000;
+    padding-bottom: 50px;
+}
+.wr-skills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.wr-skills .item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.sk-color{
+    padding-top: 40px;
+    text-align: center;
+    color: #FFF;
+}
+button.btn.btn-outline-success{
+    background-color: #000;
+}
+button.btn.btn-outline-success:hover{
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+.cv{
+    color: #FFF;
+    text-decoration: none;
+}
+a.cv:hover{
+    color: #000;
+}
+.projects{
+    margin-top: 40px;
+}
+.desc-pr{
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer{
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+    padding-top: 20px;
+}
+.footer-second{
+    display: flex;
+    flex-direction: column;
+}
+.footer-second a{
+    color: #FFF;
+    text-decoration: none;
+}
+.footer-third{
+    margin: 10px 0 5px 0;
+}
+.footer-third a{
+    color: #FFF;
+    text-decoration: none;
+}
+.media{
+    width: 25px;
+}
+@media screen and (max-width: 840px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-second{
+        align-items: center;
+    }
+}
+  
